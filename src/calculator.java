@@ -3,7 +3,7 @@ import java.util.*;
 public class calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.prin3tln("Enter first number:");
+        System.out.println("Enter first number:");
         double num1 = sc.nextDouble();
         System.out.println("Enter second number:");
         double num2 = sc.nextDouble();
@@ -33,4 +33,3 @@ public class calculator {
         System.out.println("Result: " + result);
     }
 }
-
